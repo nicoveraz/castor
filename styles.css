@@ -32,8 +32,13 @@ nav ul li {
 }
 
 nav a {
-    color: #fff;
+    color: rgba(255,255,255,0.5);
+    transition: fill 0.3s ease;
     text-decoration: none;
+}
+
+nav a:hover {
+    color: rgba(255,255,255,1);
 }
 
 /* Main Content */
