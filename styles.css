@@ -89,10 +89,10 @@ footer {
 }
 
 .social-links a svg {
-    fill: currentColor;
+    fill: rgba(255,255,255,0.5);
     transition: fill 0.3s ease;
 }
 
 .social-links a:hover svg {
-    fill: blue; /* Example hover color */
+    fill: rgba(255,255,255,1);
 }
