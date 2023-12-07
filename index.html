@@ -48,8 +48,31 @@
             </div>
         </section>
         <section id="contact">
-            <h2>Contacto</h2>
-            <p>Información de contacto...</p>
+            <div class="contact-container">
+                <!-- Contact Form -->
+                <div class="contact-form">
+                    <h2>Formulario de Contacto</h2>
+                    <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+                        <label for="name">Nombre:</label><br>
+                        <input type="text" id="name" name="name" required><br>
+        
+                        <label for="email">Email:</label><br>
+                        <input type="email" id="email" name="_replyto" required><br>
+        
+                        <label for="message">Mensaje:</label><br>
+                        <textarea id="message" name="message" required></textarea><br>
+        
+                        <input type="submit" value="Enviar">
+                    </form>
+                </div>
+                <!-- Contact Information -->
+                <div class="contact-info">
+                    <h2>Información de Contacto</h2>
+                    <p><strong>Dirección:</strong> Fundo Aguas Buenas s/n, Puerto Octay</p>
+                    <p><strong>Email:</strong> <a href="mailto:tuemail@example.com">tuemail@example.com</a></p>
+                    <p><strong>Teléfono:</strong> +1 234 567 8900</p>
+                </div>
+            </div>
         </section>
     </main>
     <footer>
