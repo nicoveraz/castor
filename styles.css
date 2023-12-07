@@ -87,3 +87,11 @@ footer {
     width: 30px; /* Adjust size as needed */
     height: auto;
 }
+
+svg {
+    width: 30px;
+    height: auto;
+    fill: #fff;
+    margin: 0 10px;
+    display: inline-block;
+}
