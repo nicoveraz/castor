@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -117,7 +122,6 @@ footer {
     flex-basis: 48%; /* Adjust the width of each column */
     padding: 20px;
     border: 1px solid #ddd; /* Border for the columns */
-    border-radius: 5px; /* Rounded corners */
     background-color: #f9f9f9; /* Light background for the columns */
 }
 
