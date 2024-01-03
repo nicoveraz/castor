@@ -23,9 +23,86 @@
     </header>
     <main>
         <section id="about">
-            <h1>Bienvenidos a El Castor</h1>
-            <p>Proveedores de madera de alta calidad en Puerto Octay.</p>
-        </section>
+            <div class="hero-carousel" style="height: 100vh">
+                <div class="carousel-slide">
+                    <img src="img/1.jpg" alt="Slide 1">
+                    <div class="carousel-caption">
+                        <h3>MADERAS EL CASTOR</h3>
+                        <p>Puerto Octay</p>
+                    </div>
+                </div>
+                <div class="carousel-slide">
+                    <img src="img/2.jpg" alt="Slide 2">
+                    <div class="carousel-caption">
+                        <h3>MADERAS EL CASTOR</h3>
+                        <p>Puerto Octay</p>
+                    </div>
+                </div>
+                <div class="carousel-slide">
+                    <img src="img/3.jpg" alt="Slide 3">
+                    <div class="carousel-caption">
+                        <h3>MADERAS EL CASTOR</h3>
+                        <p>Puerto Octay</p>
+                    </div>
+                </div>
+                <div class="carousel-slide">
+                    <img src="img/4.jpg" alt="Slide 4">
+                    <div class="carousel-caption">
+                        <h3>MADERAS EL CASTOR</h3>
+                        <p>Puerto Octay</p>
+                    </div>
+                </div>
+                <div class="carousel-slide">
+                    <img src="img/5.jpg" alt="Slide 5">
+                    <div class="carousel-caption">
+                        <h3>MADERAS EL CASTOR</h3>
+                        <p>Puerto Octay</p>
+                    </div>
+                </div>
+                <div class="carousel-slide">
+                    <img src="img/6.jpg" alt="Slide 6">
+                    <div class="carousel-caption">
+                        <h3>MADERAS EL CASTOR</h3>
+                        <p>Puerto Octay</p>
+                    </div>
+                </div>
+                <div class="carousel-slide">
+                    <img src="img/8.jpg" alt="Slide 8">
+                    <div class="carousel-caption">
+                        <h3>MADERAS EL CASTOR</h3>
+                        <p>Puerto Octay</p>
+                    </div>
+                </div>
+                <div class="carousel-slide">
+                    <img src="img/9.jpg" alt="Slide 9">
+                    <div class="carousel-caption">
+                        <h3>MADERAS EL CASTOR</h3>
+                        <p>Puerto Octay</p>
+                    </div>
+                </div>
+                <div class="carousel-slide">
+                    <img src="img/10.jpg" alt="Slide 10">
+                    <div class="carousel-caption">
+                        <h3>MADERAS EL CASTOR</h3>
+                        <p>Puerto Octay</p>
+                    </div>
+                </div>
+                <div class="carousel-slide">
+                    <img src="img/11.jpg" alt="Slide 11">
+                    <div class="carousel-caption">
+                        <h3>MADERAS EL CASTOR</h3>
+                        <p>Puerto Octay</p>
+                    </div>
+                </div>
+                <div class="carousel-slide">
+                    <img src="img/12.jpg" alt="Slide 12">
+                    <div class="carousel-caption">
+                        <h3>MADERAS EL CASTOR</h3>
+                        <p>Puerto Octay</p>
+                    </div>
+                </div>
+            </div>  
+        </section>          
         <section id="products">
             <h2>Nuestros Productos</h2>
             <article>
@@ -59,27 +136,27 @@
             <div class="contact-container">
                 <!-- Contact Form -->
                 <div class="contact-form">
-                    <h2>Formulario de Contacto</h2>
-                    <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
-                        <label for="name">Nombre:</label><br>
-                        <input type="text" id="name" name="name" required><br>
-        
-                        <label for="email">Email:</label><br>
-                        <input type="email" id="email" name="_replyto" required><br>
-        
-                        <label for="message">Mensaje:</label><br>
-                        <textarea id="message" name="message" required></textarea><br>
-        
+                    <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xwkgkqql" method="post">
+                        <fieldset id="fs-frm-inputs">
+                        <label for="full-name">Nombre</label>
+                        <input type="text" name="name" id="full-name" placeholder="Nombre y Apellido" required="">
+                        <label for="email-address">Email</label>
+                        <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+                        <label for="message">Mensaje</label>
+                        <textarea rows="5" name="message" id="message" placeholder="Su mensaje" required=""></textarea>
+                        <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+                        </fieldset>
                         <input type="submit" value="Enviar">
                     </form>
-                </div>
+                </div>               
                 <!-- Contact Information -->
                 <div class="contact-info">
                     <h2>Información de Contacto</h2>
                     <p><strong>Dirección:</strong> Fundo Aguas Buenas s/n, Puerto Octay</p>
-                    <p><strong>Email:</strong> <a href="mailto:katherine.almonacid@yatac.cl">Mail de contacto</a></p>
-                    <p><strong>Teléfono:</strong> +56 65 225 9014</p>
-                    <p><strong>Celular/Whatsapp:</strong> +56 9 7988 4354</p>
+                    <!-- add telephone number link -->
+                    <p><strong>Teléfono:</strong><a href="tel:+56652259014"> +56 65 225 9014</a></p>
+                    <!-- add whatsapp link -->
+                    <p><strong>Celular/Whatsapp:</strong><a href="https://wa.me/56979884354" target="_blank"> +56 9 7988 4354</a></p>
                 </div>
             </div>
         </section>
