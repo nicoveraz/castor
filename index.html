@@ -11,10 +11,11 @@
 </head>
 <body>
     <header>
-        <img src="img/castor.png" alt="El Castor Logo">
+        <a href="#about">
+            <img src="img/castor.png" alt="El Castor Logo">
+        </a>
         <nav>
             <ul>
-                <li><a href="#about">Acerca de</a></li>
                 <li><a href="#products">Productos</a></li>
                 <li><a href="#location">Ubicación</a></li>
                 <li><a href="#contact">Contacto</a></li>
@@ -23,6 +24,18 @@
     </header>
     <main>
         <section id="about">
+            <div class="hero">
+                <video autoplay muted loop id="heroVideo">
+                    <source src="img/el_castor.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="hero-overlay">
+                    <h3>MADERAS EL CASTOR</h3>
+                    <p>Puerto Octay</p>
+                </div>
+            </div>
+        </section>
+        <!-- <section id="about">
             <div class="hero-carousel" style="height: 100vh">
                 <div class="carousel-slide">
                     <img src="img/1.jpg" alt="Slide 1">
@@ -102,7 +115,7 @@
                     </div>
                 </div>
             </div>  
-        </section>          
+        </section>           -->
         <section id="products">
             <h2>Nuestros Productos</h2>
             <article>
@@ -136,6 +149,7 @@
             <div class="contact-container">
                 <!-- Contact Form -->
                 <div class="contact-form">
+                    <h2>Formulario de Contacto</h2>
                     <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xwkgkqql" method="post">
                         <fieldset id="fs-frm-inputs">
                         <label for="full-name">Nombre</label>
