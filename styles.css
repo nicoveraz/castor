@@ -375,6 +375,10 @@ img {
 
 /* Styles for section veh */
 
+#veh {
+    padding: 20px;
+}
+
 .vehicle-container {
     display: flex;
     flex-wrap: wrap;
