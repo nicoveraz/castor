@@ -43,13 +43,15 @@ document.addEventListener('DOMContentLoaded', () => {
             showSlide(nextIndex);
         }
 
+        showSlide(currentSlide); // Show the first slide initially
         setInterval(nextSlide, 3000); // Change slide every 3 seconds
     }
 
-    // Initialize each carousel
+    // Initialize each carousel independently
     initializeCarousel('carousel-slide-mahindra');
     initializeCarousel('carousel-slide-peugeot');
     initializeCarousel('carousel-slide-grua');
+});
 });
 
 window.onbeforeunload = () => {
