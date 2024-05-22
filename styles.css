@@ -399,10 +399,23 @@ img {
 }
 
 .vehicle-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-    height: 320px;
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.vehicle-slide {
+    position: absolute;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.vehicle-slide img {
+    width: 100%;
 }
 
 .vehicle-card {
@@ -410,13 +423,6 @@ img {
     background-color: rgba(0, 0, 0, 0.05);
     flex: 0 0 calc(33.33% - 20px);
     margin-bottom: 20px;
-}
-
-.vehicle-carousel {
-    position: relative;
-    width: 100%;
-    height: 280px;
-    overflow: hidden;
 }
 
 .price {

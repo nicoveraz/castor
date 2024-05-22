@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function nextSlide() {
-        currentSlide = (currentSlideTop + 1) % totalSlides;
+        currentSlideTop = (currentSlideTop + 1) % totalSlides;
         showSlide(currentSlideTop);
     }
 
