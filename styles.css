@@ -395,7 +395,8 @@ img {
 
 #veh {
     padding: 20px;
-    height: 380px;
+    height: 100%;
+    box-sizing: border-box;
 }
 .vehicles {
     display: grid;
