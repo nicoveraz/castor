@@ -414,20 +414,6 @@ img {
     overflow: hidden;
 }
 
-.carousel-slide {
-    display: block;
-    position: absolute;
-    width: 100%;
-    opacity: 0;
-    transition: opacity 1s ease-in-out; /* Ensure the transition duration is suitable for your needs */
-    top: 0;
-    left: 0;
-}
-
-.carousel-slide.active {
-    opacity: 1;
-}
-
 .price {
     font-size: 1.5rem;
     font-weight: bold;
