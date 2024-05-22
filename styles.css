@@ -396,14 +396,14 @@ img {
 #veh {
     padding: 20px;
     height: 380px;
+}
+.vehicles {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
-
 .vehicle-card {
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.05);
-    flex: 0 0 calc(33.33% - 20px);
     margin-bottom: 20px;
     height: 360px;
 }
@@ -426,6 +426,7 @@ img {
 
 .vehicle-slide img {
     width: 100%;
+    height: auto;
 }
 
 .price {
