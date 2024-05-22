@@ -396,6 +396,15 @@ img {
 #veh {
     padding: 20px;
     height: 380px;
+    display: flex;
+}
+
+.vehicle-card {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.05);
+    flex: 0 0 calc(33.33% - 20px);
+    margin-bottom: 20px;
+    height: 360px;
 }
 
 .vehicle-container {
@@ -416,14 +425,6 @@ img {
 
 .vehicle-slide img {
     width: 100%;
-}
-
-.vehicle-card {
-    padding: 20px;
-    background-color: rgba(0, 0, 0, 0.05);
-    flex: 0 0 calc(33.33% - 20px);
-    margin-bottom: 20px;
-    height: 360px;
 }
 
 .price {
