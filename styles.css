@@ -401,9 +401,11 @@ img {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
+    height: 320px;
 }
 
 .vehicle-card {
+    padding: 20px;
     background-color: rgba(0, 0, 0, 0.05);
     flex: 0 0 calc(33.33% - 20px);
     margin-bottom: 20px;
@@ -412,7 +414,7 @@ img {
 .vehicle-carousel {
     position: relative;
     width: 100%;
-    height: 250px;
+    height: 280px;
     overflow: hidden;
 }
 
