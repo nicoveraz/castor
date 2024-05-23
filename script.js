@@ -45,6 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         showSlide(currentSlide); // Show the first slide initially
         setInterval(nextSlide, 3000 + delayInMillisecond); // Change slide every 3 seconds
+        setInterval(nextSlide, 3000); // Change slide every 3 seconds
     }
 
     // Initialize each carousel independently, with 3000ms delay between them
