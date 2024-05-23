@@ -52,7 +52,6 @@ document.addEventListener('DOMContentLoaded', () => {
     initializeCarousel('carousel-slide-peugeot');
     initializeCarousel('carousel-slide-grua');
 });
-});
 
 window.onbeforeunload = () => {
     for(const form of document.getElementsByTagName('form')) {
