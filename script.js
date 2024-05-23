@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
     setInterval(nextSlide, 3000); // Change slide every 3 seconds
     showSlide(currentSlideTop); // Show the first slide initially
 
-    function initializeCarousel(carouselClass) {
+    function initializeCarousel(carouselClass, delayInMillisecond) {
         let currentSlide = 0;
         const slides = document.querySelectorAll(`.${carouselClass}`);
         const totalSlides = slides.length;
@@ -44,13 +44,14 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         showSlide(currentSlide); // Show the first slide initially
-        setInterval(nextSlide, 3000); // Change slide every 3 seconds
+        setInterval(nextSlide, 3000 + delayInMillisecond); // Change slide every 3 seconds
     }
 
-    // Initialize each carousel independently
-    initializeCarousel('carousel-slide-mahindra');
-    initializeCarousel('carousel-slide-peugeot');
-    initializeCarousel('carousel-slide-grua');
+    // Initialize each carousel independently, with 3000ms delay between them
+
+    initializeCarousel('carousel-slide-mahindra', 0);
+    initializeCarousel('carousel-slide-peugeot', 1000);
+    initializeCarousel('carousel-slide-grua', 2000);
 });
 
 window.onbeforeunload = () => {
